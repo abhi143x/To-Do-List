@@ -1,0 +1,171 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    background-color: #f0f0f0; 
+    font-family: Arial, sans-serif; 
+  }
+  
+  
+
+
+/* Container Styling */
+.container {
+    border: 3px solid #333; 
+    background-color: #f5f5dc; 
+    width: 90%; 
+    max-width: 500px; 
+    margin: 50px auto; 
+    padding: 20px;
+    text-align: center;
+    border-radius: 12px; 
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2); 
+  }
+  
+  /* Header Styling */
+  .header {
+    background-color: blueviolet;
+    color: #fff; 
+    padding: 15px;
+    font-size: 1.8em;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 10px 10px 0 0; 
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1); 
+  }
+  
+  /* Input Section */
+  .addactivity {
+    margin: 20px 0;
+  }
+  
+  .addactivity input {
+    width: 70%; 
+    padding: 10px;
+    margin-bottom: 3px;
+    font-size: 1em;
+    border: 2px solid #ccc; 
+    border-radius: 8px;
+    outline: none;
+    transition: border-color 0.3s;
+  }
+  
+  .addactivity input:focus {
+    border-color: blueviolet; 
+  }
+  
+  .addactivity button {
+    padding: 10px 20px;
+    font-size: 1em;
+    width: 76%;
+    background-color: blueviolet;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  .addactivity button:hover {
+    background-color: darkviolet;
+    transform: scale(1.05); 
+  }
+
+  p{
+    color: blue;
+  }
+  
+  /* List Heading */
+  .list-heading {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  /* List Items */
+  .list-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    margin: 10px 0;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.2s, box-shadow 0.3s;
+  }
+  
+  .list-item:hover {
+    transform: translateY(-3px); 
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15); 
+  }
+  
+  .listData {
+    font-size: 1em;
+    color: #333;
+    flex-grow: 1; 
+    text-align: left;
+  }
+  
+  /* Remove Button */
+  .remove-btn {
+    padding: 5px 15px;
+    font-size: 0.9em;
+    background-color: #ff4d4d; 
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  .remove-btn:hover {
+    background-color: darkred;
+    transform: scale(1.05);
+  }
+  
+  /* Remove All Button */
+  .remove-all-btn {
+    margin-top: 20px;
+    padding: 12px 25px;
+    font-size: 1em;
+    background-color: #ff4d4d;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  .remove-all-btn:hover {
+    background-color: darkred;
+    transform: translateY(-3px);
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 600px) {
+    .addactivity input {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  
+    .addactivity button {
+      width: 100%;
+      padding: 10px;
+      margin-left: 0;
+    }
+  
+    .remove-btn {
+      padding: 5px 10px;
+    }
+  
+    .remove-all-btn {
+      width: 100%;
+    }
+  }
+  
