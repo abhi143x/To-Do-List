@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import './Todolist.css'
+import './TodoList.css'
 
 const TodoList = () => {
   const [activity, setActivity] = useState(""); // Tracks current input
